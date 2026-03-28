@@ -12,7 +12,7 @@ Roles supported:
 Use your own GitHub URL (replace below):
 
 ```bash
-git clone https://github.com/<USERNAME>/<REPO>.git
+git clone https://github.com/faranburki/Job-Portal-php.git
 cd <REPO>
 ```
 
