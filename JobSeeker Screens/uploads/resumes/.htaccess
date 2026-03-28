@@ -1,0 +1,12 @@
+# Deny execution of scripts and restrict direct access
+<IfModule mod_authz_core.c>
+  Require all granted
+</IfModule>
+
+# Disable handling of PHP by Apache if possible
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps)$">
+  Require all denied
+</FilesMatch>
+
+# Prevent listing
+Options -Indexes
